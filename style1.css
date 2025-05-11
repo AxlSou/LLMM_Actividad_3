@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-image: url(imgs/iStock-1400587101.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+.contenedor {
+    width: 100%;
+    padding: 15px
+}
+
+.formulario {
+    width: 40%;
+    background-color: #e0f2f2;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 1rem;
+    border: 10px solid rgba(4, 120, 107);
+    justify-self: center;
+
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+fieldset {
+    background-color: rgba(4, 120, 107, 0.2);
+    margin-top: 15px;
+}
+
+legend {
+    background-color: whitesmoke;
+    font-size: 18px;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+input[type="radio"],
+[type="checkbox"] {
+    margin-left: 20px;
+}
+
+textarea {
+    display: block;
+    margin-top: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.boton {
+    margin-top: 15px;
+
+}
+@media (min-width: 1300px) {
+    .formulario {
+      max-width: 1200px;
+      margin: 100px auto;
+    }
+  }
+
+  @media (max-width: 1024px) and (min-width: 768px) {
+    .formulario {
+        width: 60%;
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .contenedor {
+        padding: 10px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    .boton {
+        width: 100%;
+        padding: 10px;
+    }
+}
+@media (max-width: 767px) and (orientation: portrait) {
+    .formulario {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .contenedor {
+        padding: 10px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    textarea {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .boton {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+    .formulario {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    textarea {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .boton {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .formulario {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    .contenedor {
+        padding: 8px;
+    }
+
+    .boton {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    textarea {
+        width: 100%;
+        font-size: 14px;
+    }
+}
